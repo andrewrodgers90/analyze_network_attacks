@@ -2,7 +2,7 @@
 
 ### Section 1: Identify the type of attack that may have caused this network interruption
 
-One potential explanation for the website's connection timeout error message is a DoS attack. <br><br> The logs show that the server stops responding after it is flooded with SYN packet requests. <br><br> This event could be a type of DoS attack known as SYN flooding.
+One potential explanation for the website's connection timeout error message is a DoS attack. <br><br> The logs show that the server stops responding after it is flooded with SYN packet requests. <br><br> This event could be a type of DoS attack known as SYN flooding. It is highly unlikely that this is *not* a DDoS attack, as the SYN requests are coming from a single IP address.
 
 <br>
 
